@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+}
+header {
+    background-color: white;
+    width: 100%;
+}
+header h1 {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.feed {
+    width: 800px;
+    margin: auto;
+}
+#firstPhoto,
+#secondPhoto,
+#thirdPhoto,
+#fourthPhoto {
+    background-color: white;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#firstPhoto div,
+#secondPhoto div,
+#thirdPhoto div,
+#fourthPhoto div {
+    display: flex;
+    margin: 0;
+}
+h2 {
+    width: 80%;
+    padding-left: 20px;
+}
+#firstPhoto div p,
+#secondPhoto div p,
+#thirdPhoto div p,
+#fourthPhoto div p {
+    width: 20%;
+    text-align: right;
+    color: gray;
+    padding-right: 20px;
+}
+#firstPhoto p,
+#secondPhoto p,
+#thirdPhoto p,
+#fourthPhoto p {
+    padding: 20px;
+    text-align: justify;
+    margin: 0;
+}
+#firstPhoto img,
+#secondPhoto img,
+#thirdPhoto img,
+#fourthPhoto img {
+    width: 800px;
+    margin: 0;
+}
